@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  font-family: "Shentox";
+}
+
+.header {
+  width: 100%;
+}
+
+.header-tabs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #131313;
+  height: 32px;
+  align-items: center;
+}
+
+.header-tabs a {
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+  color: rgb(134, 134, 134);
+}
+
+.header-tabs-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.links {
+  margin-left: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+  color: rgb(134, 134, 134);
+  text-transform: uppercase;
+}
+
+.left-panel {
+  margin-left: 20px;
+}
+
+.right-panel {
+  margin-right: 20px;
+}
+
+nav {
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+}
+
+nav .fas {
+  margin: 0 5px 0 5px;
+  padding: 16px;
+}
+
+.search,
+.bars {
+  border-left: 1px solid #ddd;
+}
+
+.logo {
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3fG5BHUm21ojhVzkkzTCC91roqzrHIfzxh2PHZ9SizvgK9S5Zh6U8nwrXwHJKjHsdy9xCDbwgQFuubGNX79N0Oezrhnya-8XAwqjvEuGA3kQrLiR0hd0yMj0VCTr0R1TunS6xOjy_Ij2QG_bSWR8SEs=w106-h80-no?authuser=0");
+  background-repeat: no-repeat;
+  width: 107px;
+  height: 80px;
+}
+
+.article-link {
+  background: #fd3;
+  padding: 5px 5px 5px 140px;
+  margin-left: -120px;
+  margin-bottom: 2px;
+}
+
+.photos-grid {
+  display: flex;
+}
+
+.main,
+.sm-col {
+  margin: 0 0 0 10px;
+}
+
+.sm-col:nth-child(2) {
+  margin-top: 10px;
+}
+
+.main {
+  width: 60%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("https://lh3.googleusercontent.com/pw/ACtC-3eTb4rLxWhijVKPf1By4gSeL7L__gn8pjYqikSMeMjwkbF10mAR5iKs07rqRQXnIODo_KB8b1kF6Qs1I0sC_9SFUzTxgmiOp_mQCsH-rAPMD4pvWLMb4N6b6kom8X1F9uWP6Ifccx7Qw5vyPJFbGhNu=w1753-h744-no?authuser=0");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.fa-clock {
+  padding: 0 3px 0 5px;
+}
+
+.main h1 {
+  color: white;
+  text-shadow: -3px -1px 5px black;
+  padding: 0 0 10px 15px;
+  margin: 0;
+  font-size: 56px;
+}
+
+.main-text h1 {
+  text-shadow: black -3px -1px 5px;
+  padding: 0 0 10px 15px;
+  margin: 0;
+}
+
+.main-author {
+  padding: 0 0 15px 15px;
+  color: #ddd;
+}
+
+.main-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.side {
+  width: 38.5%;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
+}
+
+.sm-col {
+  width: 100%;
+  height: 195px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("https://lh3.googleusercontent.com/pw/ACtC-3em2suREjX4PhYQ4wY1rjHJoTs8A0mjfk_Q1tNWjp2aH09hTn6_efs4_W4NYEmIaFw1k2MnwE2DinwxPmhEG_PlleU9Y0Exxm6dPt47qgSqNaTZ6KcoUb8fkpfLeZy95EgSGthbRdb1I_AwXQRHtMzY=w815-h452-no?authuser=0");
+  background-size: 100% 100%;
+  position: relative;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  height: 300px;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .fab,
+footer .fas {
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #6d6d6d;
+}
+
+.footer-links {
+  padding-top: 30px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #a5a5a5;
+  padding: 10px 5px 10px 5px;
+}
+
+@media (min-width: 830px) {
+  .logo {
+    display: none;
+  }
+  .bars {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    display: block;
+  }
+  .main-text {
+    font-size: 12px;
+  }
+  .main h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 800px) {
+  .right-panel {
+    display: none;
+  }
+}
+
+@media (max-width: 830px) {
+  .header-tabs,
+  .links {
+    display: none;
+  }
+  .header-tabs-bottom {
+    justify-content: flex-end;
+  }
+  .logo {
+    height: 50px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 773px) {
+  .photos-grid {
+    display: block;
+  }
+  .main,
+  .sm-col {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+  }
+  .side {
+    width: 100%;
+  }
+  .sm-col:nth-child(1) {
+    margin-top: 10px;
+  }
+  .main h1 {
+    font-size: 24px;
+  }
+}
