@@ -604,6 +604,7 @@ footer {
     width: calc(100% - 24px);
     display: flex;
   }
+
   .news-img {
     width: 75px;
     height: 75px;
@@ -621,7 +622,7 @@ footer {
     display: flex;
     width: calc(100% - 24px);
   }
-  
+
   .deal-img {
     width: 75px;
     height: 75px;
