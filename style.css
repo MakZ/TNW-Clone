@@ -106,8 +106,7 @@ nav .fas {
 .sm-col {
   width: 100%;
   height: 195px;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("https://lh3.googleusercontent.com/pw/ACtC-3em2suREjX4PhYQ4wY1rjHJoTs8A0mjfk_Q1tNWjp2aH09hTn6_efs4_W4NYEmIaFw1k2MnwE2DinwxPmhEG_PlleU9Y0Exxm6dPt47qgSqNaTZ6KcoUb8fkpfLeZy95EgSGthbRdb1I_AwXQRHtMzY=w815-h452-no?authuser=0");
   background-size: 100% 100%;
   position: relative;
@@ -121,8 +120,7 @@ nav .fas {
 .main {
   width: 60%;
   height: 400px;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("https://lh3.googleusercontent.com/pw/ACtC-3eTb4rLxWhijVKPf1By4gSeL7L__gn8pjYqikSMeMjwkbF10mAR5iKs07rqRQXnIODo_KB8b1kF6Qs1I0sC_9SFUzTxgmiOp_mQCsH-rAPMD4pvWLMb4N6b6kom8X1F9uWP6Ifccx7Qw5vyPJFbGhNu=w1753-h744-no?authuser=0");
   background-size: 100% 100%;
   position: relative;
@@ -281,8 +279,7 @@ img {
 }
 
 .categories-img {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url(https://lh3.googleusercontent.com/pw/ACtC-3em2suREjX4PhYQ4wY1rjHJoTs8A0mjfk_Q1tNWjp2aH09hTn6_efs4_W4NYEmIaFw1k2MnwE2DinwxPmhEG_PlleU9Y0Exxm6dPt47qgSqNaTZ6KcoUb8fkpfLeZy95EgSGthbRdb1I_AwXQRHtMzY=w815-h452-no?authuser=0);
   width: 100%;
   height: 270px;
@@ -351,6 +348,10 @@ img {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .wrap {
   flex-wrap: wrap;
   justify-content: center;
@@ -386,8 +387,7 @@ img {
 }
 
 .news-img {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url(https://lh3.googleusercontent.com/pw/ACtC-3fnNRoGsHzsIq0VGSq7A3joUAlKi6bzgI3N3DLdabEpGKjL-d5rIX9ipYPezruibO_kXKPcVvE2avEOeQdbBewywdU91nDIr5uuG5aEpTNIBb8rqhUKorxmeweicWtlu5l6kNOknIkM4xHwxM5rUpP1=w672-h345-no?authuser=0);
   background-size: contain;
   width: 100%;
@@ -396,7 +396,6 @@ img {
 }
 
 .news-4 {
-  width: calc(25% - 12px);
   padding: 12px 12px 12px 0;
 }
 
@@ -413,6 +412,7 @@ img {
 .news {
   flex-wrap: wrap;
   justify-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .deals {
@@ -603,8 +603,8 @@ footer {
     width: calc(50% - 24px);
   }
 
-  .news-4 {
-    width: calc(33% - 24px);
+  .news {
+    grid-template-columns: 33% 33% 33%;
   }
 
   .deal {
@@ -617,8 +617,12 @@ footer {
     width: calc(100% - 24px);
   }
 
+  .news {
+    grid-template-columns: 100%;
+    display: flex;
+  }
+
   .news-4 {
-    width: calc(100% - 24px);
     display: flex;
   }
 
