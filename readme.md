@@ -11,6 +11,10 @@
 - GitHub: [@MakZ](https://github.com/MakZ)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/maksymilian-zuzel-70101a174/)
 
+👤 **Author**
+
+- GitHub: [@Deepakdanger](https://github.com/Deepakdanger)
+
 ## Live Demo
 
 https://MakZ.github.io/TNW-Clone
