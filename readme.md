@@ -21,6 +21,14 @@ TNW Website Clone
 
 https://MakZ.github.io/TNW-Clone
 
+## Getting Started
+
+In this project, we will replicate the archived version of the website The Next Web. The main goal of the project is to apply responsive design techniques so that the website behaves differently depending on the size of the screen where the website is displayed.
+
+### Prerequisites
+- Microverse Project Template
+- Lint for CSS and HTML
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
