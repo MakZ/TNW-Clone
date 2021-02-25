@@ -3,6 +3,11 @@ body {
   font-family: "Shentox", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: red;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -526,7 +531,7 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .logo {
     display: block;
   }
@@ -577,7 +582,7 @@ footer {
   }
 }
 
-@media (max-width: 773px) {
+@media (max-width: 768px) {
   .photos-grid {
     display: block;
   }
